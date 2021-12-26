@@ -100,10 +100,10 @@ const TotalGrowthBarChart = ({ isLoading }) => {
                                 <Grid item>
                                     <Grid container direction="column" spacing={1}>
                                         <Grid item>
-                                            <Typography variant="subtitle2">Total Growth</Typography>
+                                            <Typography variant="subtitle2">AEROCITY</Typography>
                                         </Grid>
                                         <Grid item>
-                                            <Typography variant="h3">$2,324.00</Typography>
+                                            <Typography variant="h3">Book Online Tickets</Typography>
                                         </Grid>
                                     </Grid>
                                 </Grid>
@@ -124,7 +124,8 @@ const TotalGrowthBarChart = ({ isLoading }) => {
                             </Grid>
                         </Grid>
                         <Grid item xs={12}>
-                            <Chart {...chartData} />
+                            
+                            {/* <Chart {...chartData} /> */}
                         </Grid>
                     </Grid>
                 </MainCard>
